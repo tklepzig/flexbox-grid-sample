@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "scss": "node-sass main.scss main.min.css --output-style compressed --source-map-embed",
-    "scss-watch": "npm run scss -w"
+    "scss-watch": "npm run scss -- -w"
   },
   "dependencies": {
     "node-sass": "^4.5.3"

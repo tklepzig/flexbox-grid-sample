@@ -1,0 +1,7 @@
+body.grid {
+    display: grid;
+    justify-content: stretch;
+    grid-template-columns: 25% 100px auto;
+    grid-template-rows: 10% 10% auto;
+    align-items: stretch;
+}

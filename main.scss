@@ -1,0 +1,26 @@
+$bg: #1d1d1d;
+$fg: #ededed;
+$color: #2465a7;
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background: $bg;
+    color: $fg;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    section {
+        margin: 3px;
+        &:nth-child(even) {
+            background: darken($color, 10%);
+        }
+        &:nth-child(odd) {
+            background: darken($color, 20%);
+        }
+    }
+}
+
+@import "flex";
+@import "grid";
